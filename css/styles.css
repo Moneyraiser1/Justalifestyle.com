@@ -1,0 +1,507 @@
+body{
+    background-color: lavender;
+
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 100%;
+}
+.box{
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    height: 2em;
+    width: 100%;
+}
+ul{
+    float: left;
+    color: white;
+}
+ul li {
+    margin-top: -10px;
+    float: left;
+    position: relative;
+    width: 100px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+.subbox{
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    height: 2.5em;
+    width: 100%;
+}
+ol{
+    float: left;
+
+}
+ol li{
+    float: left;
+    width: 90px;
+    position: relative;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 110%;
+   
+
+}
+ol li a{
+    text-decoration: none;
+    color: black;
+    
+}
+ol li a:hover{
+    border-bottom: 2px solid gold
+}
+font{
+    color: gold;}
+    .jobs img{
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: 40px;   
+     }
+    .work h1{
+        position: relative;
+        top: 40px;
+        font-size: 00%;
+        left: -200px;
+        width: 100%;
+    }
+form input[ type= "submit"]{
+ 
+    position: absolute;
+    padding: 3px;
+    text-transform: capitalize;
+    background-color: purple;
+    letter-spacing: 1px;
+    color: #fff;
+    top: 40%;
+}
+
+ #p40 img{
+    width: 35%;
+    height: 20%;
+    box-shadow: 4px 1px 3px solid black;
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    border: 1px solid purple;
+}
+#p41 img{
+    width: 35%;
+    height: 20%;
+    box-shadow: 4px 1px 3px solid black;
+    position: absolute;
+    top: 38%;
+    left: 60%;
+    border: 1px solid purple;
+}
+font{
+    color: gold;}
+#red{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+#red p{
+    color: rgb(204, 180, 26);
+    margin-left: 30px;
+}
+.content{
+    text-align: center;
+}
+.we25, .we24, .we23, .we22, .we21{
+    background-color: black;
+    color: white;
+    height: 40px;
+    text-align: center;
+}
+.ferd1{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin-left: 53px;
+    box-shadow: 4px 2px 5px ;
+}  
+.ferd2{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin-left: 23px;
+    box-shadow: 4px 2px 5px ;
+    
+}
+.ferd3{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin-left: 23px;
+    box-shadow: 4px 2px 5px ;
+}
+.ferd4{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin-left: 53px;
+    margin-top: 45px;
+    box-shadow: 4px 2px 5px ;
+}
+.ferd5{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin-left: 30px;
+    margin-top: 45px;
+    box-shadow: 4px 2px 5px ;
+}
+.ferd6{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin-left: 30px;
+    margin-top: 45px;
+    box-shadow: 4px 2px 5px ;
+}
+.ferd7{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin-left: 53px;
+    margin-top: 45px;
+    box-shadow: 4px 2px 5px ;
+}
+.ferd8{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin-left: 30px;
+    margin-top: 45px;
+    box-shadow: 4px 2px 5px ;
+}
+.ferd9{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin-left: 30px;
+    margin-top: 45px;
+    box-shadow: 4px 2px 5px ;
+}
+.ferd10{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin-left: 53px;
+    margin-top: 45px;
+    box-shadow: 4px 2px 5px ;
+}
+.ferd11{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin-left: 30px;
+    margin-top: 45px;
+    box-shadow: 4px 2px 5px ;           
+}
+.ferd12{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin-left: 30px;
+    margin-top: 45px;
+    box-shadow: 4px 2px 5px ;
+}
+img{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    box-shadow: 4px 2px 5px ;
+    transition: 400ms;
+
+}
+@media only screen and (min-width: 768px) {
+    .work h1{
+        font-size: 500%;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        word-spacing: 0px;
+        line-height: 80%;
+        font-weight: normal;
+        text-shadow: 2px 2px 2px 2px   solid black;
+        position: relative;
+        top: -140px;
+        left: -40%;
+    }
+    .work form input[ type= "submit"]{
+ 
+        position: absolute;
+        padding: 3px;
+        text-transform: capitalize;
+        background-color: purple;
+        letter-spacing: 1px;
+        color: #fff;
+        top: 100%;
+        left: -60px;
+    }
+    #red{
+        text-align: center;
+        position: relative;
+        top: 100px;
+    }
+    .wrapper{
+        max-width: 600px;
+    }
+    #note {
+        display: none;
+        border: none; 
+        border-radius: 2px;
+        border-style: none; 
+        width: 40%; 
+        height: 100px;
+    }
+    #note p{
+        display: flex;
+        
+    }
+
+}
+@media only screen and (min-width: 1024px) {
+    h1{
+        font-size: 300%;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        word-spacing: 0px;
+        line-height: 80%;
+        font-weight: normal;
+        text-shadow: 2px 2px 2px 2px   solid black;
+        position: relative;
+        top: -250px;
+        left: -10%;
+    }
+    form input[ type= "submit"]{
+ 
+        position: absolute;
+        padding: 3px;
+        text-transform: capitalize;
+        background-color: purple;
+        letter-spacing: 1px;
+        color: #fff;
+        top: -50px;
+        left: 10%;
+    }
+    .wrapper{
+        max-width: 1000px;
+    }
+}
+@media only screen and (min-width: 375px) {
+    h1{
+        font-size: 200%;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        word-spacing: 0px;
+        line-height: 80%;
+        font-weight: normal;
+        text-shadow: 2px 2px 2px 2px   solid black;
+        position: relative;
+        top: -100px;
+        left: -10%;
+    }
+    form input[ type= "submit"]{
+ 
+        position: absolute;
+        padding: 3px;
+        text-transform: capitalize;
+        background-color: purple;
+        letter-spacing: 1px;
+        color: #fff;
+        top: 30px;
+        left: 10%;
+    }
+    .wrapper{
+        max-width: 1000px;
+    }
+    .jobs img{
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: -13px;
+    }
+} 
+@media only screen and (min-width: 360px) {
+    h1{
+        font-size: 200%;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        word-spacing: 0px;
+        line-height: 80%;
+        font-weight: normal;
+        text-shadow: 2px 2px 2px 2px   solid black;
+        position: relative;
+        top: -100px;
+        left: -10%;
+    }
+    form input[ type= "submit"]{
+ 
+        position: absolute;
+        padding: 3px;
+        text-transform: capitalize;
+        background-color: purple;
+        letter-spacing: 1px;
+        color: #fff;
+        top: 30px;
+        left: 10%;
+    }
+    .wrapper{
+        max-width: 1000px;
+    }
+    .jobs img{
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: -13px;
+    }
+} 
+@media only screen and (min-width: 375px) {
+    h1{
+        font-size: 200%;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        word-spacing: 0px;
+        line-height: 80%;
+        font-weight: normal;
+        text-shadow: 2px 2px 2px 2px   solid black;
+        position: relative;
+        top: -100px;
+        left: -10%;
+    }
+    form input[ type= "submit"]{
+ 
+        position: absolute;
+        padding: 3px;
+        text-transform: capitalize;
+        background-color: purple;
+        letter-spacing: 1px;
+        color: #fff;
+        top: 30px;
+        left: 10%;
+    }
+    .wrapper{
+        max-width: 1000px;
+    }
+    .jobs img{
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: -13px;
+    }
+} 
+@media only screen and (min-width: 360px) {
+    .box{
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    height: 2em;
+}
+ul{
+    float: left;
+    color: white;
+}
+ul li {
+    margin-top: -10px;
+    float: left;
+    position: relative;
+    width: 100px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+.subbox{
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    height: 2.5em;
+}
+ol{
+    float: left;
+
+}
+ol li{
+    float: left;
+    width: 90px;
+    position: relative;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 110%;
+   
+
+}
+ol li a{
+    text-decoration: none;
+    color: black;
+    
+}
+ol li a:hover{
+    border-bottom: 2px solid gold
+}
+h2{
+    position: relative;
+    text-transform: uppercase;
+    margin-top: -30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;              
+}
+font{
+    color: gold;}
+    .jobs img{
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+    .work{
+        position: absolute;
+        top: 10%;
+        left: 60%;
+    }
+.work h1{
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    word-spacing: 0px;
+    line-height: 80%;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px 2px   solid black;
+    position: relative;
+    top: 20px;
+    left: -10%;
+}
+form input[ type= "submit"]{
+ 
+    position: absolute;
+    padding: 3px;
+    text-transform: capitalize;
+    background-color: purple;
+    letter-spacing: 1px;
+    color: #fff;
+    top: 110%;
+}
+}
